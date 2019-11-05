@@ -2,6 +2,6 @@
 
 ## About
 
-This module generates a dataset from USPTO patent records for data science exercises. It is based on the pypatent module by @daneads and @danhydro but will likely change significantly as this new module has a more narrowly defined purpose.
+This module generates a dataset from USPTO patent records for data science exercises. Its data retrieval component is based on the [pypatent](https://github.com/daneads/pypatent) module by @daneads and @danhydro.
 
 Work in progress.
