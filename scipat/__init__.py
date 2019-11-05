@@ -5,7 +5,7 @@ import requests
 import re
 import pandas as pd
 from selenium import webdriver
-
+import datetime
 
 class WebConnection:
     def __init__(self,
@@ -73,6 +73,7 @@ class Patent:
 
         try:
             self.patent_date = s.find_all(align='right', width='50%')[-1].text.replace('\n', '').strip()
+            self.patent_date = datetime.datetime.strptime(self.patent_date, '%B %d, %Y').date()
         except:
             pass
 
