@@ -27,7 +27,7 @@ pip install -e .
 pytest -s tests
 ```
 
-## To-do
+## To do
 
 * patent references count (US and foreign)
 * NLP references count
