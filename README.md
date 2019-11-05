@@ -2,7 +2,7 @@
 
 ## About
 
-This module generates a dataset from USPTO patent records for data science exercises. Its data retrieval component is based on the [pypatent](https://github.com/daneads/pypatent) module by @daneads and @danhydro.
+This module generates a dataset from USPTO patent records. Its data retrieval component is based on the [pypatent](https://github.com/daneads/pypatent) module by @daneads and @danhydro.
 
 Work in progress.
 
@@ -29,5 +29,5 @@ pytest -s tests
 
 ## To-do
 
-* patent references count
+* patent references count (US and foreign)
 * NLP references count
