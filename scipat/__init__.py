@@ -67,7 +67,7 @@ class Patent:
         r = self.web_connection.get(self.url)
         s = BeautifulSoup(r, 'html.parser')
         try:
-            self.patent_num = s.find(string='United States Patent ').find_next().text.replace('\n', '').strip()
+            self.patent_num = s.find(string='United States Patent ').find_next().text.replace('\n', '').strip().replace(',', '')
         except:
             pass
 
