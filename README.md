@@ -10,7 +10,7 @@ Work in progress.
 ## Development environment
 
 ```
-conda env create -f ~/scipat/scipat.yaml
+conda env create -f ~/scipat/scipat.yml
 conda activate scipat
 pip install -U pytest
 ```
