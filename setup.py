@@ -3,7 +3,7 @@ from setuptools import setup
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setup(name='pypatent',
+setup(name='scipat',
       version='1.0.0',
       description='Generates dataset from USPTO patent records',
       url='https://github.com/lk3/scipat',
