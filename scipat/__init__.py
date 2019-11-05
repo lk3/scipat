@@ -338,5 +338,11 @@ class Search:
     def as_list(self) -> list:
         return [p.as_dict() for p in self.patents]
 
+    def get_csv(self):
+        return self.as_dataframe().to_csv()
+
+    def get_tsv(self):
+        return self.as_dataframe().to_csv(sep=b'\t'.decode('utf-8'))
+
     def __repr__(self):
         return str(self.as_dataframe())
