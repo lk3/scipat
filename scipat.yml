@@ -1,0 +1,10 @@
+name: scipat
+channels:
+dependencies:
+  - pip
+  - python=3.5.5
+  - requests
+  - pandas
+  - selenium
+  - pip:
+    - bs4
